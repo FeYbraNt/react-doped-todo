@@ -1,0 +1,82 @@
+[
+  {
+    "id": "header.main.all.text",
+    "defaultMessage": "All",
+    "filepath": "src/components/Header.js"
+  },
+  {
+    "id": "header.main.active.text",
+    "defaultMessage": "Active",
+    "filepath": "src/components/Header.js"
+  },
+  {
+    "id": "header.main.completed.text",
+    "defaultMessage": "Completed",
+    "filepath": "src/components/Header.js"
+  },
+  {
+    "id": "header.main.title",
+    "defaultMessage": "React helps you to improve yourself",
+    "filepath": "src/components/Header.js"
+  },
+  {
+    "id": "footer.paginator.first",
+    "defaultMessage": "First",
+    "filepath": "src/components/Pagination.js"
+  },
+  {
+    "id": "footer.paginator.last",
+    "defaultMessage": "Last",
+    "filepath": "src/components/Pagination.js"
+  },
+  {
+    "id": "footer.add.placeholder",
+    "defaultMessage": "Enter a name ...",
+    "filepath": "src/components/TodoAdd.js"
+  },
+  {
+    "id": "footer.add.priority0.text",
+    "defaultMessage": "No priority",
+    "filepath": "src/components/TodoAdd.js"
+  },
+  {
+    "id": "footer.add.priority1.text",
+    "defaultMessage": "Priority 1",
+    "filepath": "src/components/TodoAdd.js"
+  },
+  {
+    "id": "footer.add.priority2.text",
+    "defaultMessage": "Priority 2",
+    "filepath": "src/components/TodoAdd.js"
+  },
+  {
+    "id": "footer.add.priority3.text",
+    "defaultMessage": "Priority 3",
+    "filepath": "src/components/TodoAdd.js"
+  },
+  {
+    "id": "todos.task.title",
+    "defaultMessage": "Task",
+    "filepath": "src/components/TodoList.js"
+  },
+  {
+    "id": "todos.priority.title",
+    "defaultMessage": "Priority",
+    "filepath": "src/components/TodoList.js"
+  },
+  {
+    "id": "todos.status.title",
+    "defaultMessage": "Status",
+    "filepath": "src/components/TodoList.js"
+  },
+  {
+    "id": "todos.remove.title",
+    "defaultMessage": "Remove",
+    "filepath": "src/components/TodoList.js"
+  },
+  {
+    "id": "header.search.placeholder",
+    "defaultMessage": "Search ...",
+    "filepath": "src/components/TodoSearch.js"
+  }
+]

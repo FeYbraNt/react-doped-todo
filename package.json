@@ -1,0 +1,36 @@
+{
+  "name": "react-doped-todo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4",
+    "react-intl": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-app": "^3.0.0",
+    "enzyme": "^2.8.2",
+    "json-schema-faker": "^0.5.0-rc6",
+    "json-server": "^0.10.1",
+    "react-addons-test-utils": "^15.5.1",
+    "react-intl-cra": "^0.2.4",
+    "react-intl-translations-manager": "^5.0.0",
+    "react-scripts": "1.0.7",
+    "react-test-renderer": "^15.5.4"
+  },
+  "scripts": {
+    "start": "npm run start-mockapi & react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "generate-mock-data": "node buildScripts/generateMockData",
+    "prestart-mockapi": "npm run generate-mock-data",
+    "start-mockapi": "json-server --watch src/api/db.json --port 3001",
+    "extract:messages": "react-intl-cra 'src/**/*.js' 'src/i18n/messages.json'",
+    "manage:translations": "node buildScripts/translationRunner.js"
+  },
+  "proxy": "http://localhost:3001/todos"
+}
